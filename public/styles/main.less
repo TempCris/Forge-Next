@@ -1,70 +1,19 @@
 @import: './colors.less';
 
 //----------------------------------------------Nav-----------------------------------------------
-.nav-div{
-  width: 100%;
-  margin-bottom: 35px;
-}
-.to-home{
-  display: block;
-  margin: 10px auto 10px auto ;
-  text-align: center;
-  width: 170px;
-  color: @colorNavLogo;
-  font-size: 30px;
-  cursor: pointer;
-  span{
-    font-size: 14px;
-  }
-}
-.nav-btn{
-  width: 98%;
-  background-color: @colorNavButtons;
-  margin: 10px auto 10px auto ;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  color: @colorNavNavButtonsText;
-  font-size: 16px;
-  cursor: pointer;
-  &:hover{
-    background-color: @colorNavButtonsLigth;
-  }
-}
-.nav-border{
-  outline: @colorNavNavButtonsText solid 1px;
-}
-/*----------------------------------------ANTD-EX-------------------------------------*/
-.antdEx-container{
-  width: 94%;
-  margin: 0px auto 0px auto;
-  padding: 25px;
-  background-color: @colorTransparentGrey;
-  button{
-    margin: 30px;
-  }
-}
-/*----------------------------------------REDUX-EX-------------------------------------*/
-.reduxEx-container{
-  width: 94%;
-  margin: 0px auto 0px auto;
-  padding: 25px;
-  background-color: @colorTransparentGrey;
-  p{
-    color: @colorPrimaryText;
-    strong{
-      color: @colorSecundaryText;
+.nav {
+  background-color: transparent;
+  padding: 15px;
+  .icons {
+    img {
+      height: 30px;
+      width: 30px;
     }
-  }
-  pre{
-    color: @colorSecundaryText;
   }
 }
 /*----------------------------------------HOME-------------------------------------*/
 .home-container {
-  background-color: rgba(49, 50, 50, 1);
+  background-color: @background;
   background-image: url(/images/home/UpperSegment/background.webp);
   background-size: 100vw;
   background-repeat: no-repeat;
@@ -77,6 +26,7 @@
       font-size: 27px;
       line-height: 36px;
       font-weight: bold;
+      color: @colorWhite;
     }
     p {
       margin-left: 15%;
@@ -144,6 +94,7 @@
       margin: 15px auto 0 auto;
       border-radius: 5px;
       padding: 25px;
+      color: @colorWhite;
     }
   }
   .middle-paragraph {
@@ -166,6 +117,7 @@
     h1 {
       margin-top: 50px;
       font-weight: bold;
+      color: @colorWhite;
     }
     p {
       padding: 15px;
@@ -212,6 +164,7 @@
     h1 {
       padding: 30px;
       max-width: 60%;
+      color: @colorWhite;
     }
     .carousels {
       display: flex;
@@ -228,6 +181,7 @@
       max-width: 80%;
       text-align: center;
       margin: 50px auto 0 auto;
+      color: @colorWhite;
     }
     text-align: center;
   }
@@ -252,6 +206,7 @@
     h1 {
       padding: 30px;
       max-width: 60%;
+      color: @colorWhite;
     }
     .stories-content-1 {
       margin: 15px;
@@ -275,6 +230,7 @@
           font-size: 13px;
           margin-top: 50px;
           padding: 10px;
+          color: @colorWhite;
         }
         p {
           color: @colorWhite;
@@ -282,7 +238,7 @@
           max-width: 320px;
           min-width: 320px;
           margin: 2% auto 1% auto;
-          border-left: aqua solid 1px;
+          border-left: @border-left solid 1px;
           padding: 10px;
         }
         .rate {
@@ -317,6 +273,7 @@
           font-size: 13px;
           margin-top: 50px;
           padding: 10px;
+          color: @colorWhite;
         }
         p {
           color: @colorWhite;
@@ -324,7 +281,7 @@
           max-width: 320px;
           min-width: 320px;
           margin: 2% auto 2% auto;
-          border-left: aqua solid 1px;
+          border-left: @border-left solid 1px;
           padding: 10px;
         }
         .rate {
@@ -339,16 +296,6 @@
           }
         }
       }
-    }
-  }
-}
-.nav {
-  background-color: transparent;
-  padding: 15px;
-  .icons {
-    img {
-      height: 30px;
-      width: 30px;
     }
   }
 }

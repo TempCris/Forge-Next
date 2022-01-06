@@ -1,7 +1,7 @@
 // ---Dependencys
 import { ReactElement } from 'react';
 // ---Others
-import { genericAlt } from 'Others/globalData';
+import { genericAlt } from 'AppConfig/globalData';
 // ---Props Types
 interface Props {
   img:string;

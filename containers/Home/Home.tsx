@@ -2,10 +2,10 @@
 import { Col, Row } from 'antd';
 import { ReactElement } from 'react';
 // ---Components
-import UpperSegment from 'Cont/Home/components/Home/UpperSegment/UpperSegment';
-import MiddleSegment from 'Cont/Home/components/Home/MiddleSegment/MiddleSegment';
-import LowerSegment from 'Cont/Home/components/Home/LowerSegment/LowerSegment';
-import NavBar from 'Cont/Home/components/Home/UpperSegment/Navbar';
+import UpperSegment from 'Cont/Home/components/UpperSegment/UpperSegment';
+import MiddleSegment from 'Cont/Home/components/MiddleSegment/MiddleSegment';
+import LowerSegment from 'Cont/Home/components/LowerSegment/LowerSegment';
+import NavBar from 'Cont/Home/components/UpperSegment/Navbar';
 
 // ----------COMPONENT----------------------------------------
 export default function Home(): ReactElement {

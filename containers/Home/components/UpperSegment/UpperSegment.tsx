@@ -2,8 +2,8 @@
 import { ReactElement } from 'react';
 import { Row, Col } from 'antd';
 // ---Components
-import Text from 'Cont/Home/components/Home/UpperSegment/Text';
-import Img from 'Cont/Home/components/Home/UpperSegment/Img';
+import Text from 'Cont/Home/components/UpperSegment/Text';
+import Img from 'Cont/Home/components/UpperSegment/Img';
 // --- Images
 const forgeBlancoNegroImg = '/images/home/UpperSegment/forgeBlancoNegro.png';
 const threeScreensImg = '/images/home/UpperSegment/threeScreens.webp';

@@ -4,9 +4,9 @@ import { Carousel } from 'antd';
 import Img from '../UpperSegment/Img';
 
 // ---Images
-const img1 = '/images/home/MiddleSegment/Carousel/Carousel1.webp';
-const img2 = '/images/home/MiddleSegment/Carousel/Carousel2.webp';
-const img3 = '/images/home/MiddleSegment/Carousel/Carousel3.webp';
+const carousel1 = '/images/home/MiddleSegment/Carousel/Carousel1.webp';
+const carousel2 = '/images/home/MiddleSegment/Carousel/Carousel2.webp';
+const carousel3 = '/images/home/MiddleSegment/Carousel/Carousel3.webp';
 
 // ----------COMPONENT----------------------------------------
 export default function CarouselMiddle(): ReactElement {
@@ -18,13 +18,13 @@ export default function CarouselMiddle(): ReactElement {
       </h1>
       <Carousel autoplay>
         <div>
-          <Img img={img1} cssStyle="carousels" />
+          <Img img={carousel1} cssStyle="carousels" />
         </div>
         <div>
-          <Img img={img2} cssStyle="carousels" />
+          <Img img={carousel2} cssStyle="carousels" />
         </div>
         <div>
-          <Img img={img3} cssStyle="carousels" />
+          <Img img={carousel3} cssStyle="carousels" />
         </div>
       </Carousel>
     </div>

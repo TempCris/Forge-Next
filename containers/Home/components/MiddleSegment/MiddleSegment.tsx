@@ -2,21 +2,21 @@
 import { ReactElement } from 'react';
 import { Row, Col } from 'antd';
 // ---Components
-import Img from 'Cont/Home/components/Home/UpperSegment/Img';
-import List from 'Cont/Home/components/Home/MiddleSegment/List';
-import HowWeDidIt from 'Cont/Home/components/Home/MiddleSegment/HowWeDidIt';
-import CarouselMiddle from 'Cont/Home/components/Home/MiddleSegment/CarouselMiddle'
-import Buttons from 'Cont/Home/components/Home/Button';
+import Img from 'Cont/Home/components/UpperSegment/Img';
+import List from 'Cont/Home/components/MiddleSegment/List';
+import HowWeDidIt from 'Cont/Home/components/MiddleSegment/HowWeDidIt';
+import CarouselMiddle from 'Cont/Home/components/MiddleSegment/CarouselMiddle'
+import Buttons from 'Cont/Home/components/Button';
 // --- Images
-const img1 = '/images/home/MiddleSegment/lapTop.webp';
-const img2 = '/images/home/MiddleSegment/SuperHeroF.webp';// https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif gif del gato
+const lapTop = '/images/home/MiddleSegment/lapTop.webp';
+const superHeroF = '/images/home/MiddleSegment/SuperHeroF.webp';// https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif gif del gato
 
 // ----------COMPONENT----------------------------------------
 export default function UpperMiddle(): ReactElement {
   return (
     <Row>
       <Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
-        <Img img={img1} cssStyle="padlock" />
+        <Img img={lapTop} cssStyle="padlock" />
       </Col>
       <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
         <List />
@@ -28,7 +28,7 @@ export default function UpperMiddle(): ReactElement {
         </p>
       </Col>
       <Col span={24}>
-        <Img img={img2} cssStyle="super-hero-f" />
+        <Img img={superHeroF} cssStyle="super-hero-f" />
       </Col>
       <Col span={24}>
         <p className="second-middle-paragraph">

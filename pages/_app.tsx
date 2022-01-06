@@ -19,7 +19,6 @@ import {
   ResponsiveData
 } from '@Redux/appInfo/customTypes';
 // ---Containers
-import NavbarCont from 'Cont/Navbar/NavbarCont';
 import GlobalComponents from 'Cont/GlobalComponents/GlobalComponentsCont';
 
 function App({ Component, pageProps }: AppProps): ReactElement {
@@ -40,7 +39,6 @@ function App({ Component, pageProps }: AppProps): ReactElement {
   useEffect(() => { updateCurrentParams(); }, [urlParams]);
   return (
     <>
-      <NavbarCont />
       <GlobalComponents />
       <Component {...pageProps} />
     </>

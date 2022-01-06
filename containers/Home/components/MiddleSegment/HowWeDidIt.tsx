@@ -2,9 +2,9 @@
 import { ReactElement } from 'react';
 import { Col, Row } from 'antd';
 // ---Components
-import Img from 'Cont/Home/components/Home/UpperSegment/Img';
+import Img from 'Cont/Home/components/UpperSegment/Img';
 // --- Images
-const img1 = '/images/home/MiddleSegment/monitor.webp';
+const monitor = '/images/home/MiddleSegment/monitor.webp';
 // ----------COMPONENT----------------------------------------
 export default function HowWeDidIt(): ReactElement {
   return (
@@ -20,7 +20,7 @@ export default function HowWeDidIt(): ReactElement {
         </p>
       </Col>
       <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
-        <Img img={img1} cssStyle="monitor" />
+        <Img img={monitor} cssStyle="monitor" />
       </Col>
     </Row>
   );

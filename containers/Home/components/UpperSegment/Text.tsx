@@ -2,7 +2,7 @@
 import { ReactElement } from 'react';
 import { Html5Filled } from '@ant-design/icons';
 // ---Components
-import Buttons from 'Cont/Home/components/Home/Button';
+import Buttons from 'Cont/Home/components/Button';
 
 // ----------COMPONENT----------------------------------------
 export default function Text(): ReactElement {

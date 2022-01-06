@@ -4,7 +4,7 @@ import './index.less';
 import Carousel from 'react-multi-carousel';
 import Image from 'next/image';
 // ---Others
-import { genericAlt } from 'Others/globalData';
+import { genericAlt } from 'AppConfig/globalData';
 
 // ---Images
 const img1 = '/images/home/LowerSegment/Discounts/SamplePage1.webp';

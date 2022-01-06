@@ -2,9 +2,9 @@
 import { ReactElement } from 'react';
 import { Row, Col } from 'antd';
 // ---Components
-import DiscountOfTheMonth from 'Cont/Home/components/Home/LowerSegment/Carousel/DiscountOfTheMonth';
+import DiscountOfTheMonth from 'Cont/Home/components/LowerSegment/Carousel/DiscountOfTheMonth';
 // import BuenFin from 'Comp/Home/LowerSegment/BuenFin';
-import SuccessStories from 'Cont/Home/components/Home/LowerSegment/SuccessStories';
+import SuccessStories from 'Cont/Home/components/LowerSegment/SuccessStories';
 // --- Others
 import { success } from 'Others/SuccessData';
 
